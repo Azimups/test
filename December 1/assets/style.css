@@ -1,0 +1,325 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header .navbar {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.header .navbar img {
+  margin-left: 180px;
+  width: 80px;
+}
+
+.header .collapse li {
+  margin-right: 30px;
+}
+
+.header .collapse li i {
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.header .collapse li:hover {
+  color: #24cdd5;
+}
+
+#intro {
+  width: 100%;
+  height: 900px;
+}
+
+#intro .img {
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(./partials/sections/section-images/banner1-5.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./partials/sections/section-images/banner1-5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#intro .img .title {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#intro .img .title h1 {
+  font-size: 62px;
+  color: white;
+}
+
+#intro .img .title h2 {
+  font-weight: lighter;
+  font-size: 62px;
+  color: white;
+}
+
+#intro .img .title p {
+  color: white;
+  padding-bottom: 50px;
+}
+
+#intro .intro-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+#intro .intro-items .col-lg-3 .item {
+  text-align: center;
+  background-color: #26313c;
+  -webkit-transform: translate(160px, -200px);
+          transform: translate(160px, -200px);
+}
+
+#intro .intro-items .col-lg-3 .item i {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: white;
+  padding-top: 80px;
+}
+
+#intro .intro-items .col-lg-3 .item h4 {
+  color: white;
+}
+
+#intro .intro-items .col-lg-3 .item p {
+  color: white;
+  padding-bottom: 80px;
+}
+
+#intro .intro-items .col-lg-3 .item-2 {
+  padding: 30px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
+  background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1);
+  -webkit-transform: translate(160px, -230px);
+          transform: translate(160px, -230px);
+}
+
+#intro .intro-items .col-lg-3 .item-2 i {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: white;
+  padding-top: 70px;
+}
+
+#intro .intro-items .col-lg-3 .item-2 h4 {
+  z-index: 122;
+  color: white;
+}
+
+#intro .intro-items .col-lg-3 .item-2 p {
+  color: white;
+  padding-bottom: 80px;
+}
+
+#intro .intro-items .col-lg-3 .item-3 {
+  text-align: center;
+  background-color: #26313c;
+  -webkit-transform: translate(160px, -200px);
+          transform: translate(160px, -200px);
+}
+
+#intro .intro-items .col-lg-3 .item-3 i {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: white;
+  padding-top: 80px;
+}
+
+#intro .intro-items .col-lg-3 .item-3 h4 {
+  z-index: 122;
+  color: white;
+}
+
+#intro .intro-items .col-lg-3 .item-3 p {
+  color: white;
+  padding-bottom: 80px;
+}
+
+#about {
+  width: 100%;
+  height: 800px;
+}
+
+#about .container {
+  width: 80%;
+  height: 100%;
+}
+
+#about .container .row {
+  height: 100%;
+}
+
+#about .container .row .col-lg-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about .container .row .title .subtitle {
+  color: #23ced5;
+  display: inline;
+}
+
+#about .container .row .title .diff {
+  display: inline;
+}
+
+#about .container .row .title h2 {
+  font-size: 48px;
+  color: #384141;
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+#about .container .row .title p {
+  margin-top: 30px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+#about .container .row .title button {
+  padding: 10px 40px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
+  background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+  border-radius: 30px;
+  border: 1px solid transparent;
+  color: white;
+}
+
+#about .container .row .photo img {
+  -webkit-transform: translateX(70px);
+          transform: translateX(70px);
+  width: 450px;
+  height: 100%;
+}
+
+#process {
+  height: 600px;
+  width: 100%;
+  background: #26313c;
+}
+
+#process .container {
+  width: 100%;
+  height: 100%;
+}
+
+#process .container .row .col-lg-12 {
+  width: 100%;
+  height: 100%;
+}
+
+#process .container .row .title {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 140px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#process .container .row .title span {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+#process .container .row .title h2 {
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+
+#process .container .row ul {
+  position: relative;
+  max-width: 1290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px;
+  gap: 40px;
+}
+
+#process .container .row ul li {
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+
+#process .container .row ul li span {
+  padding: 30px;
+  line-height: 120px;
+  border: 1px solid #fff;
+  font-size: 28px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+#designs {
+  width: 100%;
+  height: 900px;
+}
+
+#designs .container {
+  width: 80%;
+  height: 100%;
+}
+
+#designs .container .row .title p {
+  padding-top: 100px;
+  font-size: 19px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: aqua;
+  letter-spacing: 1px;
+}
+
+#designs .container .row .title h2 {
+  color: #384141;
+  font-size: 48px;
+}
+
+#designs .container .row .second-title p {
+  padding-top: 120px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/*# sourceMappingURL=style.css.map */
